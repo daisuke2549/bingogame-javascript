@@ -4,10 +4,22 @@
 {
 //  const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-const source = [];
-for (let i = 0; i < 15; i++){
-    source[i] = i + 1;
+/* 関数 */
+function createColumn(col){
+    const source = [];
+    for (let i = 0; i < 15; i++){
+      // 1 ... 15
+      // source[i] = i + 1 + 15 * 0;
+      // 16 ... 30
+      // source[i] = i + 1 + 15 * 1;
+      // 31 ... 45
+      // source[i] = i + 1 + 15 * 2;
+    }
+    
 }
+
+
+
 
 
 //  Math.floor(Math.random() * (14+1))
@@ -26,5 +38,15 @@ for (let i = 0; i < 5; i++){
 
  console.log(b);
 
-
 }
+
+const columns = [];
+columns[0] = createColumn(0);
+columns[1] = createColumn(0);
+columns[2] = createColumn(0);
+columns[3] = createColumn(0);
+columns[4] = createColumn(0);
+
+
+
+
