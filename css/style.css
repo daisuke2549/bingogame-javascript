@@ -1,3 +1,13 @@
-body{
+body {
+    font-family: 'Courier New', monospace;
+  }
 
+
+th,td{
+    background-color: blue;
+    width:40px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+   
 }
